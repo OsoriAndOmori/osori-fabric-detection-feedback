@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-02-10T09:25:38.050383+00:00",
+  "correct_label": "cashmere",
+  "sample_id": "",
+  "note": "피드백테스트입니다.",
+  "pred_top1": "wool",
+  "pred_top3": [
+    {
+      "label": "wool",
+      "prob": 0.9331
+    },
+    {
+      "label": "cashmere",
+      "prob": 0.0669
+    }
+  ],
+  "blend_percent": {
+    "wool": 93.31,
+    "cashmere": 6.69
+  },
+  "qa": {
+    "blur": 566.41,
+    "exposure": "ok",
+    "dark_ratio": 0.0019,
+    "bright_ratio": 0.0189,
+    "resolution": {
+      "width": 1160,
+      "height": 780,
+      "ok": true
+    },
+    "retake": false
+  },
+  "evidence": {
+    "mode": "segmentation",
+    "class_pixel_ratio": {
+      "wool": 93.31,
+      "cashmere": 6.69
+    },
+    "mixed_detected": false,
+    "mixed_classes": [
+      "wool"
+    ]
+  },
+  "model_version": "0.1.0",
+  "record_id": "20260210T092538Z_83551f886c",
+  "image_path": "feedback/2026-02-10/images/20260210T092538Z_83551f886c.png"
+}
