@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-02-10T12:00:45.856711+00:00",
+  "correct_label": "wool",
+  "sample_id": "",
+  "note": "",
+  "pred_top1": "wool",
+  "pred_top3": [
+    {
+      "label": "wool",
+      "prob": 0.875
+    },
+    {
+      "label": "cashmere",
+      "prob": 0.125
+    }
+  ],
+  "blend_percent": {
+    "wool": 87.5,
+    "cashmere": 12.5
+  },
+  "qa": {
+    "blur": 1211.04,
+    "exposure": "ok",
+    "dark_ratio": 0.0042,
+    "bright_ratio": 0.0069,
+    "resolution": {
+      "width": 522,
+      "height": 501,
+      "ok": true
+    },
+    "retake": false
+  },
+  "evidence": {
+    "mode": "segmentation",
+    "class_pixel_ratio": {
+      "wool": 87.5,
+      "cashmere": 12.5
+    },
+    "mixed_detected": false,
+    "mixed_classes": [
+      "wool"
+    ]
+  },
+  "model_version": "0.1.0",
+  "record_id": "20260210T120045Z_dcf0238207",
+  "image_path": "feedback/2026-02-10/images/20260210T120045Z_dcf0238207.png"
+}
