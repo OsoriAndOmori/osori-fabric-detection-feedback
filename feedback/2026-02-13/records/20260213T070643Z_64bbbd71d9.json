@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-02-13T07:06:43.324201+00:00",
+  "correct_label": "cashmere",
+  "sample_id": "",
+  "note": "",
+  "pred_top1": "wool",
+  "pred_top3": [
+    {
+      "label": "wool",
+      "prob": 0.8969
+    },
+    {
+      "label": "cashmere",
+      "prob": 0.1031
+    }
+  ],
+  "blend_percent": {
+    "wool": 89.69,
+    "cashmere": 10.31
+  },
+  "qa": {
+    "blur": 321.13,
+    "exposure": "ok",
+    "dark_ratio": 0.0014,
+    "bright_ratio": 0.0047,
+    "resolution": {
+      "width": 696,
+      "height": 362,
+      "ok": true
+    },
+    "retake": false
+  },
+  "evidence": {
+    "mode": "segmentation",
+    "class_pixel_ratio": {
+      "wool": 89.69,
+      "cashmere": 10.31
+    },
+    "mixed_detected": false,
+    "mixed_classes": [
+      "wool"
+    ]
+  },
+  "model_version": "0.1.0",
+  "record_id": "20260213T070643Z_64bbbd71d9",
+  "image_path": "feedback/2026-02-13/images/20260213T070643Z_64bbbd71d9.png"
+}
